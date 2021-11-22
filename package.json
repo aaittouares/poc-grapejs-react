@@ -1,0 +1,33 @@
+{
+  "name": "grapesjs-react-components",
+  "version": "1.0.0",
+  "description": "Use React components in GrapesJS",
+  "keywords": [
+    "react",
+    "grapesjs"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "@material-ui/styles": "^4.11.4",
+    "grapesjs": "0.17.22",
+    "grapesjs-blocks-basic": "0.1.8",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
